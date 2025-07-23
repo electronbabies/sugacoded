@@ -35,7 +35,7 @@
 </head>
 
 <body>
-<div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+<div class="d-flex flex-column " style="padding-left: 0px; padding-right: 0px; height: 100vh;">
 
     <div class="header">
         @if($LogoType == 'original')
@@ -62,7 +62,7 @@
             </div>
         </div>
     </div>
-    <div class="content" style="height: 700px;" id="page_home">
+    <div class="content" style="height: 700px; " id="page_home">
         <div class="main-title">
             Welcome
         </div>
@@ -71,21 +71,29 @@
         </div>
     </div>
 
-    <div class="content" style="height: 700px; display:none; " id="page_services">
+    <div class="content" style="height: 700px; display:none;" id="page_services">
         <div class="main-title">
             Services
         </div>
         <div class="sub-title">
             Services Offered
         </div>
+        {{--<form>
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-6">
+                    <input type="text" class="form-control" placeholder="First Name" required>
+                    </div>
+                    <div class="col-6">
+                    <input type="text" class="form-control" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Email Address" required>
+                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                    <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
+                </div>
+            </div>
+        </form>--}}
     </div>
-
-    <div class="footer">
-        <div class="footer-text">
-            &copy;  All rights reserved.
-        </div>
-    </div>
-
 
     <div class="overlay">
         <div class="overlay-content">
@@ -119,6 +127,12 @@
         </div>
     </div>
 
+
+</div>
+<div class="footer">
+    <div class="footer-text">
+        &copy;  All rights reserved.
+    </div>
 </div>
 
 
