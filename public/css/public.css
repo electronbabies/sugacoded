@@ -51,29 +51,28 @@ body {
     position:fixed;
     width: 185px;
     top: -30px;
-    left: 30px;
+    left: 25px;
 }
 
 .black-solid-circle-container {
     position: fixed;
     width: 130px;
     top: 45px;
-    left: 145px;
+    left: 140px;
 }
 .diagonal-circle-container {
     position: fixed;
     width: 125px;
     top: 0px;
-    right: 80px;
+    right: 55px;
     float:right;
 }
 .black-hollow-circle-container {
     position: fixed;
     width: 160px;
     top: 30px;
-    right: 175px;
+    right: 150px;
 }
-
 
 .dotted-square-container {
     position:fixed;
@@ -86,7 +85,7 @@ body {
     position: fixed;
     width: 115px;
     bottom: 15px;
-    left: 170px;
+    left: 155px;
 }
 .diagonal-square-container {
     position: fixed;
@@ -162,6 +161,7 @@ body {
     letter-spacing: 10px;
 }
 
+/* Footer */
 .footer {
     position: relative;
     display:flex;
@@ -169,11 +169,69 @@ body {
     justify-content: center;
     width: 100%;
     font-family: "Open Sans", sans-serif;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background-color: rgb(60,60,60);
     color: white;
     font-size: 24px;
-    height: 300px;
+    height: 220px;
     z-index: 1000;
+    flex-direction: column;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+}
+
+.footer-social-icons {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.footer-text {
+    display: flex;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+/* End Footer */
+
+
+/* Responsive Design */
+@media(width < 1080px) {
+    .overlay {
+        display: none;
+    }
+    .content .main-title {
+        font-size: 110px;
+        letter-spacing: 4px;
+    }
+    .content .sub-title {
+        font-size: 40px;
+        letter-spacing: 6px;
+    }
+}
+
+@media(width <= 576px) {
+    .content .main-title {
+        font-size: 50px;
+        letter-spacing: 4px;
+        margin-top: 60px;
+    }
+    .content .sub-title {
+        font-size: 25px;
+        letter-spacing: 6px;
+    }
+    .logo-container-sub {
+        width: 320px;
+        margin-top: 20px;
+    }
+
+    .logo-container {
+        width: 210px;
+        margin-top: 20px;
+    }
 }

@@ -133,6 +133,11 @@
     <div class="footer-text">
         &copy;  All rights reserved.
     </div>
+    <div class="footer-social-icons">
+        <img src="/img/svg/facebook.svg" alt="Facebook" class="social-icon facebook">
+        <img src="/img/svg/instagram.svg" alt="Instagram" class="social-icon instagram">
+        <img src="/img/svg/twitter.svg" alt="Twitter" class="social-icon twitter">
+    </div>
 </div>
 
 
