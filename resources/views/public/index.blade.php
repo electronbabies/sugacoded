@@ -134,9 +134,9 @@
         &copy;  All rights reserved.
     </div>
     <div class="footer-social-icons">
-        <img src="/img/svg/facebook.svg" alt="Facebook" class="social-icon facebook">
-        <img src="/img/svg/instagram.svg" alt="Instagram" class="social-icon instagram">
-        <img src="/img/svg/twitter.svg" alt="Twitter" class="social-icon twitter">
+        <a href="https://www.facebook.com" target="_blank"><img src="/img/svg/facebook.svg" alt="Facebook" class="social-icon facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="/img/svg/instagram.svg" alt="Instagram" class="social-icon instagram"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="/img/svg/twitter.svg" alt="Twitter" class="social-icon twitter"></a>
     </div>
 </div>
 
