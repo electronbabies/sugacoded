@@ -76,17 +76,36 @@
             </p>
 
             <div class="featured-project__tags">
-              <span>Laravel</span>
-              <span>Nuxt</span>
-              <span>Android</span>
-              <span>OCR</span>
-              <span>Japanese NLP</span>
+              <span>
+                <Icon name="simple-icons:laravel" />
+                Laravel
+              </span>
+
+              <span>
+                <Icon name="simple-icons:nuxtdotjs" />
+                Nuxt
+              </span>
+
+              <span>
+                <Icon name="simple-icons:android" />
+                Android
+              </span>
+
+              <span>
+                <Icon name="lucide:scan-text" />
+                OCR
+              </span>
+
+              <span>
+                <Icon name="lucide:languages" />
+                Japanese NLP
+              </span>
             </div>
 
-            <a href="#" class="project-link">
-              View project
-              <span aria-hidden="true">→</span>
-            </a>
+            <div class="project-status">
+              <Icon name="lucide:rocket" />
+              <strong>In active development</strong>
+            </div>
           </div>
         </article>
         <div class="project-list">
@@ -99,19 +118,41 @@
             <h3>Reviewly.ai</h3>
 
             <p>
-            A review management platform built to help businesses turn customer
-            interactions into meaningful online feedback.
+            A customer feedback and reputation platform combining automated review
+            workflows, messaging, AI-assisted responses, and integrations with the
+            tools businesses already use.
             </p>
 
             <div class="project-card__footer">
               <div class="project-card__tags">
-                <span>Laravel</span>
-                <span>Vue</span>
-                <span>Stripe</span>
+                <span>
+                  <Icon name="simple-icons:laravel" />
+                  Laravel
+                </span>
+
+                <span>
+                  <Icon name="lucide:message-square-text" />
+                  Twilio
+                </span>
+
+                <span>
+                  <Icon name="simple-icons:google" />
+                  Google Business
+                </span>
+
+                <span>
+                  <Icon name="lucide:sparkles" />
+                  AI
+                </span>
               </div>
 
-              <a href="#" aria-label="View Reviewly.ai project">
-                <span aria-hidden="true">→</span>
+              <a
+                  href="https://reviewly.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit Reviewly.ai"
+                  >
+                  <span aria-hidden="true">→</span>
               </a>
             </div>
           </article>
@@ -125,19 +166,40 @@
             <h3>Social Rotation</h3>
 
             <p>
-            Social media automation software designed to make managing recurring
-            content simpler and less repetitive.
+            A social media automation platform built from the ground up to schedule,
+            process, and publish recurring content across multiple social networks.
             </p>
 
             <div class="project-card__footer">
               <div class="project-card__tags">
-                <span>Laravel</span>
-                <span>JavaScript</span>
-                <span>Social APIs</span>
+                <span>
+                  <Icon name="simple-icons:laravel" />
+                  Laravel
+                </span>
+
+                <span>
+                  <Icon name="lucide:share-2" />
+                  Social APIs
+                </span>
+
+                <span>
+                  <Icon name="lucide:repeat-2" />
+                  Automation
+                </span>
+
+                <span>
+                  <Icon name="lucide:cloud" />
+                  Cloud Media
+                </span>
               </div>
 
-              <a href="#" aria-label="View Social Rotation project">
-                <span aria-hidden="true">→</span>
+              <a
+                  href="https://socialrotation.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit Social Rotation"
+                  >
+                  <span aria-hidden="true">→</span>
               </a>
             </div>
           </article>
@@ -162,16 +224,11 @@
           </p>
 
           <p>
-          For more than a decade, I've built and maintained products ranging
-          from SaaS platforms and automation tools to mobile applications and
-          the infrastructure behind them.
+          With 20 years of professional software development experience, SugaCoded has built and maintained everything from focused applications to large SaaS platforms connecting messaging, automation, third-party services, background processing, and the infrastructure that keeps it all running.
           </p>
 
           <p>
-          I care about software that's understandable, maintainable, and useful.
-          No unnecessary complexity. No technology chosen because it's
-          fashionable. Just thoughtful engineering around what the product
-          actually needs.
+          The approach is straightforward: build software that's understandable, maintainable, and useful. Avoid unnecessary complexity. Choose technology because it fits the problem, not because it's fashionable.
           </p>
         </div>
       </div>
@@ -185,37 +242,42 @@
         <div class="capabilities__grid">
           <div class="capability">
             <span class="capability__number">01</span>
-            <h3>Backend</h3>
+            <h3>Product Development</h3>
             <p>
-            Laravel, PHP, APIs, MySQL, authentication, integrations, and the
-            infrastructure behind production applications.
+            From initial ideas to production applications — architecture, backend
+            systems, interfaces, APIs, integrations, deployment, and the pieces
+            required to turn a concept into software people can actually use.
             </p>
           </div>
 
           <div class="capability">
             <span class="capability__number">02</span>
-            <h3>Frontend</h3>
+            <h3>Systems Integration</h3>
             <p>
-            Vue, Nuxt, TypeScript, JavaScript, responsive interfaces, and
-            application-focused UI.
+            APIs, authentication, messaging, payments, third-party platforms,
+            background processing, automation, and the infrastructure connecting
+            them — built with security, reliability, and maintainability in mind.
             </p>
           </div>
 
           <div class="capability">
             <span class="capability__number">03</span>
-            <h3>Products</h3>
+            <h3>Existing Software</h3>
             <p>
-            SaaS platforms, automation tools, mobile applications, OCR,
-            language processing, and third-party integrations.
+            Feature development, debugging, modernization, performance work, and
+            extending mature applications without introducing unnecessary
+            complexity.
             </p>
           </div>
 
           <div class="capability">
             <span class="capability__number">04</span>
-            <h3>Long-term Work</h3>
+            <h3>Shared Architecture</h3>
             <p>
-            Maintenance, debugging, performance work, feature development,
-            and keeping mature software understandable.
+            SugaCoded can work across multiple applications within an organization,
+            building shared components and reusable architecture where it makes
+            sense while keeping individual products focused on their own
+            requirements.
             </p>
           </div>
         </div>
@@ -227,15 +289,15 @@
           <span class="contact__eyebrow">Have something to build?</span>
 
           <h2>
-            Let's make something
+            Build something
             <em>useful.</em>
           </h2>
         </div>
 
         <div class="contact__action">
           <p>
-          Available for contract work, product development, and
-          long-term engineering projects.
+          SugaCoded is available for contract work, product development,
+          and long-term engineering projects.
           </p>
 
           <a href="mailto:hello@sugacoded.app" class="contact__link">
