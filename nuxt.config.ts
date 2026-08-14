@@ -1,9 +1,16 @@
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui',
     '@nuxt/icon'
   ],
+
+  vite: {
+    plugins: [
+      tailwindcss()
+    ]
+  },
 
   icon: {
     provider: 'none',

@@ -30,7 +30,7 @@
 
         <div class="hero__mark" aria-hidden="true">
           <img
-              src="/brush-stroke-s.png"
+              src="/brush-stroke-s-1200.webp"
               alt=""
               >
         </div>

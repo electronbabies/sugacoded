@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = 'SugaCoded'
+  const title = 'SugaCoded'
 const description = 'Thoughtful software built for real-world problems.'
 const siteUrl = 'https://sugacoded.app'
 const socialImage = `${siteUrl}/og-image.png`
@@ -39,9 +39,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </UApp>
+  <NuxtLayout>
+  <NuxtPage />
+  </NuxtLayout>
 </template>
