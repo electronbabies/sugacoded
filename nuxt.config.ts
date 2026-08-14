@@ -1,10 +1,16 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxt/icon'
   ],
+
+  icon: {
+    provider: 'none',
+    clientBundle: {
+      scan: true
+    }
+  },
 
   devtools: {
     enabled: true
@@ -24,6 +30,7 @@ export default defineNuxtConfig({
   eslint: {
     config: {
       stylistic: {
+        indent: 2,
         commaDangle: 'never',
         braceStyle: '1tbs'
       }

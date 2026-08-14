@@ -77,33 +77,33 @@
 
             <div class="featured-project__tags">
               <span>
-                <Icon name="simple-icons:laravel" />
+                <Icon name="i-simple-icons-laravel" />
                 Laravel
               </span>
 
               <span>
-                <Icon name="simple-icons:nuxtdotjs" />
+                <Icon name="i-simple-icons-nuxtdotjs" />
                 Nuxt
               </span>
 
               <span>
-                <Icon name="simple-icons:android" />
+                <Icon name="i-simple-icons-android" />
                 Android
               </span>
 
               <span>
-                <Icon name="lucide:scan-text" />
+                <Icon name="i-lucide-scan-text" />
                 OCR
               </span>
 
               <span>
-                <Icon name="lucide:languages" />
+                <Icon name="i-lucide-languages" />
                 Japanese NLP
               </span>
             </div>
 
             <div class="project-status">
-              <Icon name="lucide:rocket" />
+              <Icon name="i-lucide-rocket" />
               <strong>In active development</strong>
             </div>
           </div>
@@ -126,22 +126,22 @@
             <div class="project-card__footer">
               <div class="project-card__tags">
                 <span>
-                  <Icon name="simple-icons:laravel" />
+                  <Icon name="i-simple-icons-laravel" />
                   Laravel
                 </span>
 
                 <span>
-                  <Icon name="lucide:message-square-text" />
+                  <Icon name="i-lucide-message-square-text" />
                   Twilio
                 </span>
 
                 <span>
-                  <Icon name="simple-icons:google" />
+                  <Icon name="i-simple-icons-google" />
                   Google Business
                 </span>
 
                 <span>
-                  <Icon name="lucide:sparkles" />
+                  <Icon name="i-lucide-sparkles" />
                   AI
                 </span>
               </div>
@@ -173,22 +173,22 @@
             <div class="project-card__footer">
               <div class="project-card__tags">
                 <span>
-                  <Icon name="simple-icons:laravel" />
+                  <Icon name="i-simple-icons-laravel" />
                   Laravel
                 </span>
 
                 <span>
-                  <Icon name="lucide:share-2" />
+                  <Icon name="i-lucide-share-2" />
                   Social APIs
                 </span>
 
                 <span>
-                  <Icon name="lucide:repeat-2" />
+                  <Icon name="i-lucide-repeat-2" />
                   Automation
                 </span>
 
                 <span>
-                  <Icon name="lucide:cloud" />
+                  <Icon name="i-lucide-cloud" />
                   Cloud Media
                 </span>
               </div>
@@ -283,29 +283,29 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="contact">
-      <div class="site-container contact__inner">
-        <div>
-          <span class="contact__eyebrow">Have something to build?</span>
+<section id="contact" class="contact">
+  <div class="site-container contact__inner">
+    <div>
+      <span class="contact__eyebrow">Have something to build?</span>
 
-          <h2>
-            Build something
-            <em>useful.</em>
-          </h2>
-        </div>
+      <h2>
+        Build something
+        <em>useful.</em>
+      </h2>
+    </div>
 
-        <div class="contact__action">
-          <p>
-          SugaCoded is available for contract work, product development,
-          and long-term engineering projects.
-          </p>
+    <div class="contact__action">
+      <p>
+        SugaCoded is available for contract work, product development,
+        and long-term engineering projects.
+      </p>
 
-          <a href="mailto:hello@sugacoded.app" class="contact__link">
-            Get in touch
-            <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </div>
-    </section>
+      <a href="mailto:hello@sugacoded.app" class="contact__link">
+        Get in touch
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
   </div>
 </template>
