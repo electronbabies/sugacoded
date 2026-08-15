@@ -60,7 +60,7 @@
             <a href="#work">Work</a>
             <a href="#services">Services</a>
             <a href="#about">About</a>
-            <a href="#mailto:hello@sugacoded.app">Contact</a>
+            <a href="mailto:hello@sugacoded.app">Contact</a>
           </nav>
 
           <div class="site-footer__social">
