@@ -67,10 +67,12 @@
             <a
               href="https://github.com/electronbabies"
               aria-label="GitHub"
+              target="_blank"
             >GitHub</a>
             <a
               href="https://www.linkedin.com/company/sugacoded-llc"
               aria-label="LinkedIn"
+              target="_blank"
             >LinkedIn</a>
           </div>
         </div>
