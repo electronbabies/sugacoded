@@ -60,16 +60,16 @@
             <a href="#work">Work</a>
             <a href="#services">Services</a>
             <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#mailto:hello@sugacoded.app">Contact</a>
           </nav>
 
           <div class="site-footer__social">
             <a
-              href="#"
+              href="https://github.com/electronbabies"
               aria-label="GitHub"
             >GitHub</a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/sugacoded-llc"
               aria-label="LinkedIn"
             >LinkedIn</a>
           </div>
