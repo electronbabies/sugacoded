@@ -11,32 +11,44 @@
           </h1>
 
           <p class="hero__description">
-          SugaCoded designs and builds thoughtful software around real
-          problems — with a focus on clarity, usefulness, and the people
-          actually using it.
+            SugaCoded designs and builds thoughtful software around real
+            problems — with a focus on clarity, usefulness, and the people
+            actually using it.
           </p>
 
           <div class="hero__actions">
-            <a href="#work" class="button button--primary">
+            <a
+              href="#work"
+              class="button button--primary"
+            >
               See the work
             </a>
 
-            <a href="#contact" class="button button--text">
+            <a
+              href="#contact"
+              class="button button--text"
+            >
               Get in touch
               <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
 
-        <div class="hero__mark" aria-hidden="true">
+        <div
+          class="hero__mark"
+          aria-hidden="true"
+        >
           <img
-              src="/brush-stroke-s-1200.webp"
-              alt=""
-              >
+            src="/brush-stroke-s-1200.webp"
+            alt=""
+          >
         </div>
       </div>
     </section>
-    <section id="work" class="work">
+    <section
+      id="work"
+      class="work"
+    >
       <div class="site-container">
         <header class="section-heading">
           <span class="section-heading__eyebrow">Selected work</span>
@@ -65,14 +77,14 @@
             <h3>LangLife</h3>
 
             <p class="featured-project__lead">
-            Turn the Japanese you encounter in real life into something
-            you can actually learn from.
+              Turn the Japanese you encounter in real life into something
+              you can actually learn from.
             </p>
 
             <p class="featured-project__description">
-            LangLife captures Japanese from the world around you, identifies
-            useful vocabulary, preserves the original context, and turns those
-            encounters into material you can study later.
+              LangLife captures Japanese from the world around you, identifies
+              useful vocabulary, preserves the original context, and turns those
+              encounters into material you can study later.
             </p>
 
             <div class="featured-project__tags">
@@ -118,9 +130,9 @@
             <h3>Reviewly.ai</h3>
 
             <p>
-            A customer feedback and reputation platform combining automated review
-            workflows, messaging, AI-assisted responses, and integrations with the
-            tools businesses already use.
+              A customer feedback and reputation platform combining automated review
+              workflows, messaging, AI-assisted responses, and integrations with the
+              tools businesses already use.
             </p>
 
             <div class="project-card__footer">
@@ -147,12 +159,12 @@
               </div>
 
               <a
-                  href="https://reviewly.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit Reviewly.ai"
-                  >
-                  <span aria-hidden="true">→</span>
+                href="https://reviewly.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Reviewly.ai"
+              >
+                <span aria-hidden="true">→</span>
               </a>
             </div>
           </article>
@@ -166,8 +178,8 @@
             <h3>Social Rotation</h3>
 
             <p>
-            A social media automation platform built from the ground up to schedule,
-            process, and publish recurring content across multiple social networks.
+              A social media automation platform built from the ground up to schedule,
+              process, and publish recurring content across multiple social networks.
             </p>
 
             <div class="project-card__footer">
@@ -194,19 +206,22 @@
               </div>
 
               <a
-                  href="https://socialrotation.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit Social Rotation"
-                  >
-                  <span aria-hidden="true">→</span>
+                href="https://socialrotation.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Social Rotation"
+              >
+                <span aria-hidden="true">→</span>
               </a>
             </div>
           </article>
         </div>
       </div>
     </section>
-    <section id="about" class="about">
+    <section
+      id="about"
+      class="about"
+    >
       <div class="site-container about__inner">
         <div class="about__heading">
           <span class="section-heading__eyebrow">About SugaCoded</span>
@@ -219,21 +234,24 @@
 
         <div class="about__content">
           <p class="about__lead">
-          SugaCoded is an independent software studio built around a simple
-          idea: understand the problem first, then write the software.
+            SugaCoded is an independent software studio built around a simple
+            idea: understand the problem first, then write the software.
           </p>
 
           <p>
-          With 20 years of professional software development experience, SugaCoded has built and maintained everything from focused applications to large SaaS platforms connecting messaging, automation, third-party services, background processing, and the infrastructure that keeps it all running.
+            With 20 years of professional software development experience, SugaCoded has built and maintained everything from focused applications to large SaaS platforms connecting messaging, automation, third-party services, background processing, and the infrastructure that keeps it all running.
           </p>
 
           <p>
-          The approach is straightforward: build software that's understandable, maintainable, and useful. Avoid unnecessary complexity. Choose technology because it fits the problem, not because it's fashionable.
+            The approach is straightforward: build software that's understandable, maintainable, and useful. Avoid unnecessary complexity. Choose technology because it fits the problem, not because it's fashionable.
           </p>
         </div>
       </div>
     </section>
-    <section id="services" class="capabilities">
+    <section
+      id="services"
+      class="capabilities"
+    >
       <div class="site-container">
         <div class="capabilities__header">
           <span class="section-heading__eyebrow">Capabilities</span>
@@ -244,9 +262,9 @@
             <span class="capability__number">01</span>
             <h3>Product Development</h3>
             <p>
-            From initial ideas to production applications — architecture, backend
-            systems, interfaces, APIs, integrations, deployment, and the pieces
-            required to turn a concept into software people can actually use.
+              From initial ideas to production applications — architecture, backend
+              systems, interfaces, APIs, integrations, deployment, and the pieces
+              required to turn a concept into software people can actually use.
             </p>
           </div>
 
@@ -254,9 +272,9 @@
             <span class="capability__number">02</span>
             <h3>Systems Integration</h3>
             <p>
-            APIs, authentication, messaging, payments, third-party platforms,
-            background processing, automation, and the infrastructure connecting
-            them — built with security, reliability, and maintainability in mind.
+              APIs, authentication, messaging, payments, third-party platforms,
+              background processing, automation, and the infrastructure connecting
+              them — built with security, reliability, and maintainability in mind.
             </p>
           </div>
 
@@ -264,9 +282,9 @@
             <span class="capability__number">03</span>
             <h3>Existing Software</h3>
             <p>
-            Feature development, debugging, modernization, performance work, and
-            extending mature applications without introducing unnecessary
-            complexity.
+              Feature development, debugging, modernization, performance work, and
+              extending mature applications without introducing unnecessary
+              complexity.
             </p>
           </div>
 
@@ -274,38 +292,44 @@
             <span class="capability__number">04</span>
             <h3>Shared Architecture</h3>
             <p>
-            SugaCoded can work across multiple applications within an organization,
-            building shared components and reusable architecture where it makes
-            sense while keeping individual products focused on their own
-            requirements.
+              SugaCoded can work across multiple applications within an organization,
+              building shared components and reusable architecture where it makes
+              sense while keeping individual products focused on their own
+              requirements.
             </p>
           </div>
         </div>
       </div>
     </section>
-<section id="contact" class="contact">
-  <div class="site-container contact__inner">
-    <div>
-      <span class="contact__eyebrow">Have something to build?</span>
+    <section
+      id="contact"
+      class="contact"
+    >
+      <div class="site-container contact__inner">
+        <div>
+          <span class="contact__eyebrow">Have something to build?</span>
 
-      <h2>
-        Build something
-        <em>useful.</em>
-      </h2>
-    </div>
+          <h2>
+            Build something
+            <em>useful.</em>
+          </h2>
+        </div>
 
-    <div class="contact__action">
-      <p>
-        SugaCoded is available for contract work, product development,
-        and long-term engineering projects.
-      </p>
+        <div class="contact__action">
+          <p>
+            SugaCoded is available for contract work, product development,
+            and long-term engineering projects.
+          </p>
 
-      <a href="mailto:hello@sugacoded.app" class="contact__link">
-        Get in touch
-        <span aria-hidden="true">→</span>
-      </a>
-    </div>
-  </div>
-</section>
+          <a
+            href="mailto:hello@sugacoded.app"
+            class="contact__link"
+          >
+            Get in touch
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
 </template>

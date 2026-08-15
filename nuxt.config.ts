@@ -6,19 +6,6 @@ export default defineNuxtConfig({
     '@nuxt/icon'
   ],
 
-  vite: {
-    plugins: [
-      tailwindcss()
-    ]
-  },
-
-  icon: {
-    provider: 'none',
-    clientBundle: {
-      scan: true
-    }
-  },
-
   devtools: {
     enabled: true
   },
@@ -34,6 +21,12 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2026-06-30',
 
+  vite: {
+    plugins: [
+      tailwindcss()
+    ]
+  },
+
   eslint: {
     config: {
       stylistic: {
@@ -41,6 +34,13 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
+    }
+  },
+
+  icon: {
+    provider: 'none',
+    clientBundle: {
+      scan: true
     }
   }
 })

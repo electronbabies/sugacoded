@@ -2,17 +2,23 @@
   <div class="site-shell">
     <header class="site-header">
       <div class="site-container site-header__inner">
-        <NuxtLink to="/" class="site-brand">
-        <img
+        <NuxtLink
+          to="/"
+          class="site-brand"
+        >
+          <img
             src="/brush-stroke-s-1200.webp"
             alt=""
             class="site-brand__logo"
-            >
+          >
 
-            <span>SugaCoded</span>
+          <span>SugaCoded</span>
         </NuxtLink>
 
-        <nav class="site-nav" aria-label="Primary navigation">
+        <nav
+          class="site-nav"
+          aria-label="Primary navigation"
+        >
           <NuxtLink to="#work">Work</NuxtLink>
           <NuxtLink to="#services">Services</NuxtLink>
           <NuxtLink to="#about">About</NuxtLink>
@@ -29,22 +35,28 @@
       <div class="site-container">
         <div class="site-footer__main">
           <div class="site-footer__identity">
-            <NuxtLink to="/" class="site-footer__brand">
-            <img
+            <NuxtLink
+              to="/"
+              class="site-footer__brand"
+            >
+              <img
                 src="/brush-stroke-s-1200.webp"
                 alt=""
                 class="site-footer__logo"
-                >
+              >
 
-                <span>SugaCoded</span>
+              <span>SugaCoded</span>
             </NuxtLink>
 
             <p class="site-footer__tagline">
-            Independent software studio building thoughtful software.
+              Independent software studio building thoughtful software.
             </p>
           </div>
 
-          <nav class="site-footer__nav" aria-label="Footer navigation">
+          <nav
+            class="site-footer__nav"
+            aria-label="Footer navigation"
+          >
             <a href="#work">Work</a>
             <a href="#services">Services</a>
             <a href="#about">About</a>
@@ -52,8 +64,14 @@
           </nav>
 
           <div class="site-footer__social">
-            <a href="#" aria-label="GitHub">GitHub</a>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a
+              href="#"
+              aria-label="GitHub"
+            >GitHub</a>
+            <a
+              href="#"
+              aria-label="LinkedIn"
+            >LinkedIn</a>
           </div>
         </div>
 
