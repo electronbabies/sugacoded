@@ -1,0 +1,99 @@
+name: Deploy SugaCoded
+
+on:
+  push:
+    branches:
+      - redesign
+
+concurrency:
+  group: sugacoded-production
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.21.0
+          run_install: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.23.2
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build
+        run: pnpm build
+
+      - name: Package build
+        run: tar -czf sugacoded-output.tar.gz .output
+
+      - name: Configure SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/sugacoded_deploy
+          chmod 600 ~/.ssh/sugacoded_deploy
+
+          ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Upload build
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          scp \
+            -i ~/.ssh/sugacoded_deploy \
+            sugacoded-output.tar.gz \
+            "$DEPLOY_USER@$DEPLOY_HOST:/tmp/sugacoded-output.tar.gz"
+
+      - name: Deploy
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          ssh \
+            -i ~/.ssh/sugacoded_deploy \
+            "$DEPLOY_USER@$DEPLOY_HOST" \
+            'set -e
+             cd /srv/sugacoded
+             rm -rf .output
+             tar -xzf /tmp/sugacoded-output.tar.gz
+             rm /tmp/sugacoded-output.tar.gz
+             sudo systemctl restart sugacoded'
+
+      - name: Health check
+        run: |
+          for i in {1..10}; do
+            if curl --fail --silent --show-error https://sugacoded.app > /dev/null; then
+              echo "SugaCoded is healthy."
+              exit 0
+            fi
+
+            echo "Waiting for SugaCoded..."
+            sleep 3
+          done
+
+          echo "SugaCoded failed its health check."
+          exit 1
