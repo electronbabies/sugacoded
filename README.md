@@ -1,64 +1,61 @@
-# Nuxt Starter Template
+# SugaCoded
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+The official website for SugaCoded LLC, an independent software development company focused on building practical, maintainable software for real-world problems.
 
-Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
+**Live site:** https://sugacoded.app
 
-- [Live demo](https://starter-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+## About
 
-<a href="https://starter-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
-    <img alt="Nuxt Starter Template" src="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png" width="830" height="466">
-  </picture>
-</a>
+SugaCoded builds custom software, web applications, mobile applications, and SaaS products, with experience spanning new product development, existing systems, integrations, and infrastructure.
 
-> The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.
+This repository contains the source code for the SugaCoded company website.
 
-## Quick Start
+## Tech Stack
 
-```bash [Terminal]
-npm create nuxt@latest -- -t ui
-```
+- Nuxt
+- Vue
+- TypeScript
+- Sass
+- pnpm
 
-## Deploy your own
+## Development
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=starter&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fstarter&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fstarter-dark.png&demo-url=https%3A%2F%2Fstarter-template.nuxt.dev%2F&demo-title=Nuxt%20Starter%20Template&demo-description=A%20minimal%20template%20to%20get%20started%20with%20Nuxt%20UI.)
-
-## Setup
-
-Make sure to install the dependencies:
+Install dependencies:
 
 ```bash
 pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start the development server:
 
 ```bash
 pnpm dev
 ```
 
-## Production
+Run linting:
 
-Build the application for production:
+```bash
+pnpm lint
+```
+
+Run type checking:
+
+```bash
+pnpm typecheck
+```
+
+Create a production build:
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+## Deployment
 
-```bash
-pnpm preview
-```
+The site is deployed automatically through GitHub Actions.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Pushes are validated with linting, type checking, and a production build before deployment.
 
-## Renovate integration
+## License
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+Copyright © SugaCoded LLC. All rights reserved.
