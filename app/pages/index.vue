@@ -3,7 +3,7 @@
     <section class="hero">
       <div class="site-container hero__inner">
         <div class="hero__content">
-          <span class="hero__eyebrow">Independent software studio</span>
+          <span class="hero__eyebrow">Independent senior software engineer</span>
 
           <h1 class="hero__title">
             Software should solve problems,
@@ -11,9 +11,9 @@
           </h1>
 
           <p class="hero__description">
-            SugaCoded designs and builds thoughtful software around real
-            problems — with a focus on clarity, usefulness, and the people
-            actually using it.
+            SugaCoded builds and maintains SaaS products, focused applications,
+            and practical business websites — with a focus on clarity,
+            usefulness, and the people actually using them.
           </p>
 
           <div class="hero__actions">
@@ -60,18 +60,22 @@
         </header>
 
         <article class="featured-project">
-          <div class="featured-project__visual">
-            <div class="featured-project__mark">
-              <span>LL</span>
-            </div>
+          <div class="featured-project__visual featured-project__visual--image">
+            <img
+              src="/langlife_main_pic.png"
+              alt="LangLife OCR capture and Japanese study interface"
+              width="1448"
+              height="1086"
+              class="featured-project__image"
+            >
 
             <span class="featured-project__number">01</span>
           </div>
 
           <div class="featured-project__content">
             <div class="featured-project__meta">
-              <span>Language Learning</span>
-              <span>2025–Present</span>
+              <span>Contextual Japanese Learning</span>
+              <span>2026–Present</span>
             </div>
 
             <h3>LangLife</h3>
@@ -82,9 +86,10 @@
             </p>
 
             <p class="featured-project__description">
-              LangLife captures Japanese from the world around you, identifies
-              useful vocabulary, preserves the original context, and turns those
-              encounters into material you can study later.
+              An OCR-based Japanese learning product that turns real-world
+              encounters into personalized study. Captured sentences, vocabulary,
+              and comprehension gaps shape future review around what the learner
+              actually needs.
             </p>
 
             <div class="featured-project__tags">
@@ -118,68 +123,32 @@
               <Icon name="i-lucide-rocket" />
               <strong>In active development</strong>
             </div>
+
+            <a
+              href="https://langlife.sugacoded.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              aria-label="View the LangLife product preview"
+            >
+              View product preview
+              <span aria-hidden="true">→</span>
+            </a>
           </div>
         </article>
         <div class="project-list">
           <article class="project-card">
             <div class="project-card__meta">
               <span>02</span>
-              <span>SaaS</span>
-            </div>
-
-            <h3>Reviewly.ai</h3>
-
-            <p>
-              A customer feedback and reputation platform combining automated review
-              workflows, messaging, AI-assisted responses, and integrations with the
-              tools businesses already use.
-            </p>
-
-            <div class="project-card__footer">
-              <div class="project-card__tags">
-                <span>
-                  <Icon name="i-simple-icons-laravel" />
-                  Laravel
-                </span>
-
-                <span>
-                  <Icon name="i-lucide-message-square-text" />
-                  Twilio
-                </span>
-
-                <span>
-                  <Icon name="i-simple-icons-google" />
-                  Google Business
-                </span>
-
-                <span>
-                  <Icon name="i-lucide-sparkles" />
-                  AI
-                </span>
-              </div>
-
-              <a
-                href="https://reviewly.ai"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit Reviewly.ai"
-              >
-                <span aria-hidden="true">→</span>
-              </a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-card__meta">
-              <span>03</span>
-              <span>Social Media</span>
+              <span>Social Media Automation</span>
             </div>
 
             <h3>Social Rotation</h3>
 
             <p>
-              A social media automation platform built from the ground up to schedule,
-              process, and publish recurring content across multiple social networks.
+              A long-running SaaS product for scheduling and rotating recurring content
+              across multiple social platforms, with automated branded and watermarked
+              image processing built into the publishing workflow.
             </p>
 
             <div class="project-card__footer">
@@ -200,8 +169,8 @@
                 </span>
 
                 <span>
-                  <Icon name="i-lucide-cloud" />
-                  Cloud Media
+                  <Icon name="i-lucide-image" />
+                  Image Processing
                 </span>
               </div>
 
@@ -210,6 +179,54 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Social Rotation"
+              >
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span>03</span>
+              <span>Review Management SaaS</span>
+            </div>
+
+            <h3>Reviewly</h3>
+
+            <p>
+              A review-management product that helps businesses collect feedback through
+              QR and messaging flows, manage review and response workflows, and use
+              operational analytics to track performance.
+            </p>
+
+            <div class="project-card__footer">
+              <div class="project-card__tags">
+                <span>
+                  <Icon name="i-simple-icons-laravel" />
+                  Laravel
+                </span>
+
+                <span>
+                  <Icon name="i-lucide-message-square-text" />
+                  Twilio
+                </span>
+
+                <span>
+                  <Icon name="i-simple-icons-google" />
+                  Google Business
+                </span>
+
+                <span>
+                  <Icon name="i-lucide-qr-code" />
+                  QR Collection
+                </span>
+              </div>
+
+              <a
+                href="https://reviewly.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Reviewly"
               >
                 <span aria-hidden="true">→</span>
               </a>
@@ -234,12 +251,15 @@
 
         <div class="about__content">
           <p class="about__lead">
-            SugaCoded is an independent software studio built around a simple
-            idea: understand the problem first, then write the software.
+            SugaCoded is the independent full-stack practice of a senior software
+            engineer, built around a simple idea: understand the problem first,
+            then write the software.
           </p>
 
           <p>
-            With 20 years of professional software development experience, SugaCoded has built and maintained everything from focused applications to large SaaS platforms connecting messaging, automation, third-party services, background processing, and the infrastructure that keeps it all running.
+            With 20 years of professional experience, the work spans Laravel and PHP
+            backends, Nuxt and Vue frontends, APIs, automation, third-party integrations,
+            background processing, and the infrastructure that keeps products running.
           </p>
 
           <p>
@@ -290,12 +310,11 @@
 
           <div class="capability">
             <span class="capability__number">04</span>
-            <h3>Shared Architecture</h3>
+            <h3>Focused Business Sites</h3>
             <p>
-              SugaCoded can work across multiple applications within an organization,
-              building shared components and reusable architecture where it makes
-              sense while keeping individual products focused on their own
-              requirements.
+              Polished responsive websites for service businesses that need to explain
+              their offer, establish trust, and turn visits into useful inquiries
+              without unnecessary product complexity.
             </p>
           </div>
         </div>
@@ -317,8 +336,8 @@
 
         <div class="contact__action">
           <p>
-            SugaCoded is available for contract work, product development,
-            and long-term engineering projects.
+            SugaCoded is available for contract product development, feature work,
+            maintenance and cleanup, and focused business websites.
           </p>
 
           <a

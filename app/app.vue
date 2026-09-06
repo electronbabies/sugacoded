@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const title = 'SugaCoded'
-const description = 'Thoughtful software built for real-world problems.'
+const description = 'Senior full-stack product development, SaaS engineering, and focused business websites.'
 const siteUrl = 'https://sugacoded.app'
 const socialImage = `${siteUrl}/og-image.png`
 
