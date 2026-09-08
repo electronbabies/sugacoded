@@ -495,6 +495,10 @@ img {
   .featured-project__visual {
     min-height: 24rem;
   }
+
+  .featured-project__meta {
+    border-bottom: 0;
+  }
 }
 
 .project-list {
@@ -617,6 +621,11 @@ img {
     &:first-child {
       border-bottom: 0;
     }
+  }
+
+  .project-card__meta {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--sc-border);
   }
 }
 
@@ -1025,22 +1034,10 @@ img {
   .project-list {
     grid-template-columns: 1fr;
     margin-top: 4rem;
-    border-top: 0;
-    border-bottom: 0;
   }
 
   .project-card {
     min-height: auto;
-
-    &:first-child,
-    &:last-child {
-      padding: 2.5rem 0;
-      border-right: 0;
-    }
-
-    &:first-child {
-      border-bottom: 0;
-    }
   }
 
   .about {
