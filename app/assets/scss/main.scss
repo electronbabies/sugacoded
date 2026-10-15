@@ -540,6 +540,20 @@ img {
   }
 }
 
+.project-card--castcue {
+  min-height: auto;
+  margin-top: 4rem;
+  border-top: 1px solid var(--sc-border);
+
+  > p {
+    max-width: 45rem;
+  }
+}
+
+.project-card--castcue + .project-list {
+  margin-top: 0;
+}
+
 .project-card__meta {
   display: flex;
   justify-content: space-between;
