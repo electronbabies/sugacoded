@@ -136,10 +136,57 @@
             </a>
           </div>
         </article>
+        <article class="project-card project-card--castcue">
+          <div class="project-card__meta">
+            <span>02</span>
+            <span>Android Fishing Application</span>
+          </div>
+
+          <h3>CastCue</h3>
+
+          <p>
+            Should I fish this spot, and when? An Android application in development
+            that combines environmental information from multiple external APIs with
+            its own scoring system to help anglers evaluate fishing conditions.
+            Designed around a practical decision, it scores conditions rather than
+            predicting catch probability.
+          </p>
+
+          <div>
+            <div class="project-status">
+              <Icon name="i-lucide-rocket" />
+              <strong>In active development</strong>
+            </div>
+          </div>
+
+          <div class="project-card__footer">
+            <div class="project-card__tags">
+              <span>
+                <Icon name="i-simple-icons-android" />
+                Android
+              </span>
+
+              <span>
+                <Icon name="i-lucide-plug" />
+                External APIs
+              </span>
+
+              <span>
+                <Icon name="i-lucide-chart-no-axes-combined" />
+                Environmental Scoring
+              </span>
+
+              <span>
+                <Icon name="i-lucide-compass" />
+                Product Design
+              </span>
+            </div>
+          </div>
+        </article>
         <div class="project-list">
           <article class="project-card">
             <div class="project-card__meta">
-              <span>02</span>
+              <span>03</span>
               <span>Social Media Automation</span>
             </div>
 
@@ -187,7 +234,7 @@
 
           <article class="project-card">
             <div class="project-card__meta">
-              <span>03</span>
+              <span>04</span>
               <span>Review Management SaaS</span>
             </div>
 
