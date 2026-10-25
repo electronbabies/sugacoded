@@ -60,17 +60,23 @@
         </header>
 
         <article class="featured-project">
-          <div class="featured-project__visual featured-project__visual--image">
-            <img
-              src="/langlife_main_pic.png"
-              alt="LangLife OCR capture and Japanese study interface"
-              width="1448"
-              height="1086"
-              class="featured-project__image"
-            >
+          <figure class="featured-project__preview">
+            <div class="featured-project__visual featured-project__visual--image">
+              <img
+                src="/langlife_main_pic.png"
+                alt="LangLife concept illustration of capturing a Japanese shop sign for language study"
+                width="1448"
+                height="1086"
+                loading="lazy"
+                decoding="async"
+                class="featured-project__image"
+              >
 
-            <span class="featured-project__number">01</span>
-          </div>
+              <span class="featured-project__number">01</span>
+            </div>
+
+            <figcaption>Product concept illustration</figcaption>
+          </figure>
 
           <div class="featured-project__content">
             <div class="featured-project__meta">
@@ -86,10 +92,10 @@
             </p>
 
             <p class="featured-project__description">
-              An OCR-based Japanese learning product that turns real-world
-              encounters into personalized study. Captured sentences, vocabulary,
-              and comprehension gaps shape future review around what the learner
-              actually needs.
+              A Japanese-learning product in development, bringing together Android
+              photo capture, OCR processing, and a web study interface. Designed to
+              turn captured sentences, vocabulary, and comprehension gaps into
+              personalized review.
             </p>
 
             <div class="featured-project__tags">
@@ -119,69 +125,104 @@
               </span>
             </div>
 
-            <div class="project-status">
-              <Icon name="i-lucide-rocket" />
-              <strong>In active development</strong>
-            </div>
+            <div class="project-actions">
+              <div class="project-status">
+                <Icon name="i-lucide-rocket" />
+                <strong>In Development</strong>
+              </div>
 
-            <a
-              href="https://langlife.sugacoded.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-link"
-              aria-label="View the LangLife product preview"
-            >
-              View product preview
-              <span aria-hidden="true">→</span>
-            </a>
+              <a
+                href="https://langlife.sugacoded.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                aria-label="View the LangLife product preview"
+              >
+                View product preview
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
           </div>
         </article>
         <article class="project-card project-card--castcue">
-          <div class="project-card__meta">
-            <span>02</span>
-            <span>Android Fishing Application</span>
-          </div>
+          <div class="project-card__content">
+            <div class="project-card__meta">
+              <span>02</span>
+              <span>Android Fishing Application</span>
+            </div>
 
-          <h3>CastCue</h3>
+            <h3>CastCue</h3>
 
-          <p>
-            Should I fish this spot, and when? An Android application in development
-            that combines environmental information from multiple external APIs with
-            its own scoring system to help anglers evaluate fishing conditions.
-            Designed around a practical decision, it scores conditions rather than
-            predicting catch probability.
-          </p>
+            <p class="project-card__lead">
+              Should I fish this spot, and when?
+            </p>
 
-          <div>
+            <p class="project-card__description">
+              An Android fishing app in development, bringing together environmental
+              conditions, scoring, tides, and hourly forecasts from providers including
+              Open-Meteo and NOAA. It scores conditions, not catch probability.
+            </p>
+
+            <p class="project-card__description">
+              Browse Fishing Locations and Spots, create and name personal Spots on
+              a map, and return to locally saved places. Light/Dark appearance and
+              location-specific data coverage support its coastal-first outlook.
+            </p>
+
             <div class="project-status">
               <Icon name="i-lucide-rocket" />
-              <strong>In active development</strong>
+              <strong>In Development</strong>
+            </div>
+
+            <div class="project-card__footer">
+              <div class="project-card__tags">
+                <span>
+                  <Icon name="i-simple-icons-android" />
+                  Android
+                </span>
+
+                <span>
+                  <Icon name="i-lucide-plug" />
+                  Environmental APIs
+                </span>
+
+                <span>
+                  <Icon name="i-lucide-chart-no-axes-combined" />
+                  Environmental Scoring
+                </span>
+
+                <span>
+                  <Icon name="i-lucide-map-pin" />
+                  Personal Spot Maps
+                </span>
+              </div>
+
+              <a
+                href="https://castcue.sugacoded.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View the CastCue product website"
+              >
+                View product website
+                <span aria-hidden="true">→</span>
+              </a>
             </div>
           </div>
 
-          <div class="project-card__footer">
-            <div class="project-card__tags">
-              <span>
-                <Icon name="i-simple-icons-android" />
-                Android
-              </span>
-
-              <span>
-                <Icon name="i-lucide-plug" />
-                External APIs
-              </span>
-
-              <span>
-                <Icon name="i-lucide-chart-no-axes-combined" />
-                Environmental Scoring
-              </span>
-
-              <span>
-                <Icon name="i-lucide-compass" />
-                Product Design
-              </span>
+          <figure class="castcue-preview">
+            <div class="castcue-preview__phone">
+              <img
+                src="/castcue-hourly-dark.webp"
+                alt="CastCue hourly forecast showing a 55 Fair condition score alongside wind, temperature, pressure, and marine guidance."
+                width="805"
+                height="1350"
+                loading="lazy"
+                decoding="async"
+              >
             </div>
-          </div>
+
+            <figcaption>Android development preview · Example conditions</figcaption>
+          </figure>
         </article>
         <div class="project-list">
           <article class="project-card">
@@ -193,10 +234,15 @@
             <h3>Social Rotation</h3>
 
             <p>
-              A long-running SaaS product for scheduling and rotating recurring content
-              across multiple social platforms, with automated branded and watermarked
-              image processing built into the publishing workflow.
+              A social media SaaS for scheduling and rotating recurring content across
+              multiple platforms, with content buckets, automated publishing, custom
+              branding, and performance analytics.
             </p>
+
+            <div class="project-status">
+              <Icon name="i-lucide-circle-check" />
+              <strong>Live Product</strong>
+            </div>
 
             <div class="project-card__footer">
               <div class="project-card__tags">
@@ -217,16 +263,17 @@
 
                 <span>
                   <Icon name="i-lucide-image" />
-                  Image Processing
+                  Content Workflows
                 </span>
               </div>
 
               <a
-                href="https://socialrotation.com/"
+                href="https://my.socialrotation.app/login"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit Social Rotation"
+                aria-label="Sign in to Social Rotation"
               >
+                Product sign-in
                 <span aria-hidden="true">→</span>
               </a>
             </div>
@@ -241,10 +288,15 @@
             <h3>Reviewly</h3>
 
             <p>
-              A review-management product that helps businesses collect feedback through
-              QR and messaging flows, manage review and response workflows, and use
-              operational analytics to track performance.
+              A Google review-management SaaS with SMS feedback requests, QR and NFC
+              collection, AI-assisted review and response workflows, and performance
+              tracking for businesses.
             </p>
+
+            <div class="project-status">
+              <Icon name="i-lucide-circle-check" />
+              <strong>Live Product</strong>
+            </div>
 
             <div class="project-card__footer">
               <div class="project-card__tags">
@@ -265,7 +317,7 @@
 
                 <span>
                   <Icon name="i-lucide-qr-code" />
-                  QR Collection
+                  QR &amp; NFC
                 </span>
               </div>
 
@@ -275,6 +327,7 @@
                 rel="noopener noreferrer"
                 aria-label="Visit Reviewly"
               >
+                Visit product site
                 <span aria-hidden="true">→</span>
               </a>
             </div>

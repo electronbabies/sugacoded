@@ -1,9 +1,12 @@
 <template>
-  <div class="site-shell">
+  <div
+    id="top"
+    class="site-shell"
+  >
     <header class="site-header">
       <div class="site-container site-header__inner">
-        <NuxtLink
-          to="/"
+        <a
+          href="/#top"
           class="site-brand"
         >
           <img
@@ -13,7 +16,7 @@
           >
 
           <span>SugaCoded</span>
-        </NuxtLink>
+        </a>
 
         <nav
           class="site-nav"
@@ -35,8 +38,8 @@
       <div class="site-container">
         <div class="site-footer__main">
           <div class="site-footer__identity">
-            <NuxtLink
-              to="/"
+            <a
+              href="/#top"
               class="site-footer__brand"
             >
               <img
@@ -46,7 +49,7 @@
               >
 
               <span>SugaCoded</span>
-            </NuxtLink>
+            </a>
 
             <p class="site-footer__tagline">
               Independent software studio building thoughtful software.
@@ -68,11 +71,13 @@
               href="https://github.com/electronbabies"
               aria-label="GitHub"
               target="_blank"
+              rel="noopener noreferrer"
             >GitHub</a>
             <a
               href="https://www.linkedin.com/company/sugacoded-llc"
               aria-label="LinkedIn"
               target="_blank"
+              rel="noopener noreferrer"
             >LinkedIn</a>
           </div>
         </div>
