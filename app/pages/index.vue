@@ -81,7 +81,6 @@
           <div class="featured-project__content">
             <div class="featured-project__meta">
               <span>Contextual Japanese Learning</span>
-              <span>2026–Present</span>
             </div>
 
             <h3>LangLife</h3>
@@ -98,37 +97,37 @@
               personalized review.
             </p>
 
-            <div class="featured-project__tags">
-              <span>
-                <Icon name="i-simple-icons-laravel" />
-                Laravel
-              </span>
-
-              <span>
-                <Icon name="i-simple-icons-nuxtdotjs" />
-                Nuxt
-              </span>
-
-              <span>
-                <Icon name="i-simple-icons-android" />
-                Android
-              </span>
-
-              <span>
-                <Icon name="i-lucide-scan-text" />
-                OCR
-              </span>
-
-              <span>
-                <Icon name="i-lucide-languages" />
-                Japanese NLP
-              </span>
-            </div>
-
-            <div class="project-actions">
+            <div class="project-card__footer">
               <div class="project-status">
                 <Icon name="i-lucide-rocket" />
                 <strong>In Development</strong>
+              </div>
+
+              <div class="project-card__tags">
+                <span>
+                  <Icon name="i-simple-icons-laravel" />
+                  Laravel
+                </span>
+
+                <span>
+                  <Icon name="i-simple-icons-nuxtdotjs" />
+                  Nuxt
+                </span>
+
+                <span>
+                  <Icon name="i-simple-icons-android" />
+                  Android
+                </span>
+
+                <span>
+                  <Icon name="i-lucide-scan-text" />
+                  OCR
+                </span>
+
+                <span>
+                  <Icon name="i-lucide-languages" />
+                  Japanese NLP
+                </span>
               </div>
 
               <a
@@ -147,8 +146,7 @@
         <article class="project-card project-card--castcue">
           <div class="project-card__content">
             <div class="project-card__meta">
-              <span>02</span>
-              <span>Android Fishing Application</span>
+              <span class="project-number">02</span>
             </div>
 
             <h3>CastCue</h3>
@@ -169,12 +167,12 @@
               location-specific data coverage support its coastal-first outlook.
             </p>
 
-            <div class="project-status">
-              <Icon name="i-lucide-rocket" />
-              <strong>In Development</strong>
-            </div>
-
             <div class="project-card__footer">
+              <div class="project-status">
+                <Icon name="i-lucide-rocket" />
+                <strong>In Development</strong>
+              </div>
+
               <div class="project-card__tags">
                 <span>
                   <Icon name="i-simple-icons-android" />
@@ -201,33 +199,40 @@
                 href="https://castcue.sugacoded.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the CastCue product website"
+                class="project-link"
+                aria-label="View the CastCue product preview"
               >
-                View product website
+                View product preview
                 <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
 
-          <figure class="castcue-preview">
-            <div class="castcue-preview__phone">
-              <img
-                src="/castcue-hourly-dark.webp"
-                alt="CastCue hourly forecast showing a 55 Fair condition score alongside wind, temperature, pressure, and marine guidance."
-                width="805"
-                height="1350"
-                loading="lazy"
-                decoding="async"
-              >
+          <div class="project-card__preview">
+            <div class="project-card__meta project-card__meta--subtitle">
+              <span>Android Fishing Application</span>
             </div>
 
-            <figcaption>Android development preview · Example conditions</figcaption>
-          </figure>
+            <figure class="castcue-preview">
+              <div class="castcue-preview__phone">
+                <img
+                  src="/castcue-hourly-dark.webp"
+                  alt="CastCue hourly forecast showing a 55 Fair condition score alongside wind, temperature, pressure, and marine guidance."
+                  width="805"
+                  height="1350"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </div>
+
+              <figcaption>Android development preview · Example conditions</figcaption>
+            </figure>
+          </div>
         </article>
         <div class="project-list">
           <article class="project-card">
             <div class="project-card__meta">
-              <span>03</span>
+              <span class="project-number">03</span>
               <span>Social Media Automation</span>
             </div>
 
@@ -239,12 +244,12 @@
               branding, and performance analytics.
             </p>
 
-            <div class="project-status">
-              <Icon name="i-lucide-circle-check" />
-              <strong>Live Product</strong>
-            </div>
-
             <div class="project-card__footer">
+              <div class="project-status">
+                <Icon name="i-lucide-circle-check" />
+                <strong>Live Product</strong>
+              </div>
+
               <div class="project-card__tags">
                 <span>
                   <Icon name="i-simple-icons-laravel" />
@@ -271,6 +276,7 @@
                 href="https://my.socialrotation.app/login"
                 target="_blank"
                 rel="noopener noreferrer"
+                class="project-link"
                 aria-label="Sign in to Social Rotation"
               >
                 Product sign-in
@@ -281,7 +287,7 @@
 
           <article class="project-card">
             <div class="project-card__meta">
-              <span>04</span>
+              <span class="project-number">04</span>
               <span>Review Management SaaS</span>
             </div>
 
@@ -293,12 +299,12 @@
               tracking for businesses.
             </p>
 
-            <div class="project-status">
-              <Icon name="i-lucide-circle-check" />
-              <strong>Live Product</strong>
-            </div>
-
             <div class="project-card__footer">
+              <div class="project-status">
+                <Icon name="i-lucide-circle-check" />
+                <strong>Live Product</strong>
+              </div>
+
               <div class="project-card__tags">
                 <span>
                   <Icon name="i-simple-icons-laravel" />
@@ -325,6 +331,7 @@
                 href="https://reviewly.ai"
                 target="_blank"
                 rel="noopener noreferrer"
+                class="project-link"
                 aria-label="Visit Reviewly"
               >
                 Visit product site
